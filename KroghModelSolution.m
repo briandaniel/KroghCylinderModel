@@ -23,7 +23,7 @@ figure('outerposition',[1000,500,500,500])
 
 hold on
 colors = parula(size(Psltn,2));
-lin = plot(r*1e4,Psltn)
+lin = plot(r*1e4,Psltn);
 set(lin,{'color'},num2cell(colors,2))
 xlabel('r [\mu m]')
 ylabel('P [torr]')
